@@ -62,9 +62,9 @@ h1 {
 .btn.secondary { border: 1.5px solid var(--wood); color: var(--wood-dark); }
 .btn.secondary:hover { background: var(--cream); }
 
-/* Photo: wood-toned placeholder until images/hero.jpg exists */
+/* Photo: images/hero.jpg (wide, 465 x 295 from 2011); wood-toned placeholder if it's missing */
 .photo {
-  aspect-ratio: 4 / 5; border-radius: 18px; overflow: hidden; position: relative;
+  aspect-ratio: 8 / 5; border-radius: 18px; overflow: hidden; position: relative;
   display: grid; place-items: center;
   background:
     radial-gradient(circle at 30% 25%, rgba(255, 214, 150, .55), transparent 55%),
@@ -84,7 +84,7 @@ h1 {
 
 @media (max-width: 760px) {
   .hero { grid-template-columns: 1fr; padding-top: 8px; }
-  .photo { order: -1; aspect-ratio: 4 / 3; }
+  .photo { order: -1; }
 }
 
 /* Coming-soon sections */
