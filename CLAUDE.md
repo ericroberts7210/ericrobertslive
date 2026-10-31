@@ -8,9 +8,17 @@ pro gig worker; keep the tone friendly and easygoing. Domain: ericrobertslive.co
 
 - Plain HTML + CSS: `index.html`, `styles.css`. No build step, no framework, no npm.
 - Ask before adding any dependency, script or build tool.
-- Hosting plan: Vercel Hobby (free), deployed from GitHub. Not set up yet.
+- Code: public GitHub repo ericroberts7210/ericrobertslive. Pushing `main` deploys.
+- Hosting: Vercel Hobby (free), project `ericrobertslive` in the Vercel account named
+  "PickThisPlayThat" (Eric's only Vercel account; PT is a separate project there).
+  Vercel's GitHub app has access to selected repos only (pickthisplaythat, ericrobertslive).
 - Domain: ericrobertslive.com, registered at GoDaddy (bought 2026-10-25, auto-renews
-  2027-10-25). DNS not set up yet; it still shows GoDaddy parking.
+  2027-10-25). Live since 2026-10-31: www.ericrobertslive.com is the main address and
+  the bare domain redirects to it. GoDaddy DNS: A @ 216.198.79.1 and
+  CNAME www 8598e97375aeb681.vercel-dns-017.com. Leave the NS, SOA, _domainconnect and
+  _dmarc records alone.
+- GoDaddy blocks sign-in from the built-in browser pane; Eric edits GoDaddy in his own
+  Chrome. Vercel sends sign-in codes by email; Eric enters them himself.
 
 ## Song list and requests live in PickThisPlayThat
 
@@ -64,7 +72,6 @@ Headings use Fraunces (serif) and body text uses Source Sans 3, both from Google
 
 ## Next steps
 
-1. Create a GitHub repo and push.
-2. Connect it to Vercel Hobby.
-3. Point ericrobertslive.com at Vercel from GoDaddy. Vercel gives the site free HTTPS.
-4. Fill in the Coming Soon sections.
+1. Fill in the Coming Soon sections.
+2. Facebook Page and Instagram (Creator) account "Eric Roberts Live": Eric is creating
+   them; then mock up links on the site.
